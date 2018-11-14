@@ -79,8 +79,7 @@ public class MainActivity extends BaseActivity {
                         countryNamesVO = new CountryNamesVO(countryVO.getSymbols().getAMD());
                         mCountryVOList.add(countryNamesVO);
                         countryNamesVO = new CountryNamesVO(countryVO.getSymbols().getAOA());
-                        mCountryVOList.add(countryNamesVO);
-                        setUpRecyclerView();
+                        
 
 
 
